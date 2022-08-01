@@ -12,21 +12,21 @@
 			}
 			function country(){
 				if (findGetParameter("country")==undefined || findGetParameter("country")=="random")
-					return "/Countries/"+Countries[randint(0,Countries.length-1)];
+					return "/countryballs-generator/Countries/"+Countries[randint(0,Countries.length-1)];
 				else
-					return "/Countries/"+findGetParameter("country")+".png";
+					return "/countryballs-generator/Countries/"+findGetParameter("country")+".png";
 			}
 			function face(){
 				if (findGetParameter("face")==undefined || findGetParameter("face")=="random")
-					return "/Faces/"+Faces[randint(0,Faces.length-1)];
+					return "/countryballs-generator/Faces/"+Faces[randint(0,Faces.length-1)];
 				else
-					return "/Faces/"+findGetParameter("face")+".png";
+					return "/countryballs-generator/Faces/"+findGetParameter("face")+".png";
 			}
 			function skin(){
 				if (findGetParameter("skin")==undefined || findGetParameter("skin")=="random")
-					return "/Skins/"+Skins[randint(0,Skins.length-1)];
+					return "/countryballs-generator/Skins/"+Skins[randint(0,Skins.length-1)];
 				else
-					return "/Skins/"+findGetParameter("skin")+".png";
+					return "/countryballs-generator/Skins/"+findGetParameter("skin")+".png";
 			}
 			function findGetParameter(parameterName) {
 				var result = null,
