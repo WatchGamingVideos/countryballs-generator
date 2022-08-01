@@ -1,2 +1,2 @@
 # countryballs-generator
-This is a Countryballs Generator
+This is a Countryballs Generator.
